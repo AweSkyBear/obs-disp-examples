@@ -11,7 +11,7 @@ Want to know more? [Check its README](https://github.com/AweSkyBear/obs-disp)!
 
 ## Live page /
 
-**TODO** The examples page is available here
+[The examples page is available here](https://aweskybear.github.io/obs-disp-examples/)
 
 ## Running locally
 
