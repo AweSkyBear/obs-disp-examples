@@ -1,0 +1,69 @@
+body {
+    font-family: monospace;
+}
+
+
+.left-sidebar {
+    background: white;
+    border: 1px dotted;
+    height: calc(100vh - 150px);
+    overflow: scroll;
+    width: 300px;
+    padding: 0 1rem;
+    margin-right: 1.5rem;
+    float: left;
+}
+
+.left-sidebar > ul {
+    margin-top: 0.2rem;
+    padding: 0.1rem;
+    padding-right: 0;
+    font-size: 14px;
+}
+.left-sidebar > ul > h2 {
+    margin-top: 0.2rem;
+}
+.left-sidebar > ul > li {
+    margin-top: 0.5rem; 
+}
+
+.example-description {
+    float: right;
+    width: 315px;
+}
+button.run-example {
+    margin-bottom: 0.3rem;
+}
+button.run-example.active {
+    outline: 1px solid #464646;
+    border-radius: 3px;
+}
+
+.toc-sidebar {
+    background: white;
+    border: 1px dotted;
+    height: calc(100vh - 220px);
+    overflow-y: scroll;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    padding: 0 1rem;
+    margin-top: 70px;
+}
+
+.f-fantasy {
+    font-family: fantasy, monospace;
+}
+
+.btn-remove-all-ODs {
+    position: absolute;
+    right: 25px;
+    top: 95px;
+}
+
+.checkbox-clean {
+    position: absolute;
+    right: 0;
+    width: 320px;
+    top: 40px;
+}
